@@ -1,14 +1,18 @@
+import Dictionary from "./Dictionary";
+import "./App.css";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       Hello
-      </header>
+      <div className="container">
+        <header className="App-header">React Dictionary</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small> Coded by Allende Bennett</small>{" "}
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
