@@ -10,8 +10,25 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small> Coded by Allende Bennett</small>{" "}
+          This project was coded by{" "}
+          <a
+            href="https://github.com/AllyB101/react-dictionary-shecodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Allende Bennett
+          </a>{" "}
+          and is open-sourced code on
         </footer>
+
+        <a
+          href="https://github.com/AllyB101/react-dictionary-shecodes"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Github
+        </a>
       </div>
     </div>
   );
