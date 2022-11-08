@@ -7,10 +7,10 @@ export default function App() {
       <div className="container">
         <header className="App-header">React Dictionary</header>
         <main>
-          <Dictionary defaultKeyword={"pandas"} />
+          <Dictionary defaultKeyword={"panda"} />
         </main>
         <footer className="App-footer">
-          This project was coded by{" "}
+          Coded by{" "}
           <a
             href="https://github.com/AllyB101/react-dictionary-shecodes"
             target="_blank"
@@ -19,16 +19,15 @@ export default function App() {
             Allende Bennett
           </a>{" "}
           and is open-sourced code on
+          <a
+            href="https://github.com/AllyB101/react-dictionary-shecodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Github
+          </a>
         </footer>
-
-        <a
-          href="https://github.com/AllyB101/react-dictionary-shecodes"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {" "}
-          Github
-        </a>
       </div>
     </div>
   );

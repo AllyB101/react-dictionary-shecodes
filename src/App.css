@@ -1,16 +1,24 @@
 .App {
   padding: 60px 0 100px;
   max-width: 960px;
+  background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
 }
 
 a {
-  color: #9670f4;
+  color: white;
 }
 .App-footer {
+  font-size: 15px;
   text-align: center;
   margin: 0 auto;
 }
 
 .App-header {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px 5px;
+  box-shadow: 5px 5px 5px;
   text-align: center;
+  font-size: 40px;
+  background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
 }
