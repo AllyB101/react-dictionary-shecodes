@@ -15,6 +15,7 @@ export default function App() {
             href="https://github.com/AllyB101/react-dictionary-shecodes"
             target="_blank"
             rel="noreferrer"
+            alt="links"
           >
             Allende Bennett
           </a>{" "}
@@ -23,6 +24,7 @@ export default function App() {
             href="https://github.com/AllyB101/react-dictionary-shecodes"
             target="_blank"
             rel="noreferrer"
+            alt="githublink"
           >
             {" "}
             Github
