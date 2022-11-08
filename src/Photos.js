@@ -13,9 +13,9 @@ export default function Photos(props) {
                   href={photo.src.original}
                   target="_blank"
                   rel="norefferer"
-                  alt="blank"
+                  alt="originalpic"
                 >
-                  <img src={photo.src.tiny} className="img-fluid" alt="blank" />
+                  <img src={photo.src.tiny} className="img-fluid" alt="tiny" />
                 </a>
               </div>
             );
